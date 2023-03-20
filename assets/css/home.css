@@ -1,0 +1,59 @@
+
+.container-post {
+    padding: 5rem 25rem;
+    display: grid;
+    place-content: center;
+}
+
+.post {
+    width: 70vw;
+    font-family: 'Lexend Deca';
+    background-color: var(--white);
+    border-radius: 0.5rem;
+    margin: 5rem 0;
+    padding: 0 2.5rem;
+    transition: .5s;
+
+}
+
+@media (max-width: 700px) {
+    #header{
+        width: max-content;
+        /* display: grid; */
+        padding: 3rem;
+        width: 100vw;
+
+    }
+    .post {
+        width: max-content;
+    }
+    /* #footer{width: min-content;} */
+
+}
+
+.post:hover {
+    box-shadow: 0.5rem 0 1rem #ff000033;
+}
+
+.top-post span{
+    font-size: 1.6rem;
+}
+
+.content-post h3{
+    color: var(--title);
+    font-weight: 400;
+}
+
+.top-post, .content-post p{
+    padding: 2rem;
+    color: var(--text);
+}
+
+.top-post i {
+    color: var(--blue-dark);
+    cursor: pointer;
+}
+
+.content-post p{
+    font-size: 1.8rem;
+}
